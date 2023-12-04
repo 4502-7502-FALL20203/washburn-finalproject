@@ -109,12 +109,12 @@ button.skip-link {
 }
 
 body {
-    animation: colorChange 5s infinite alternate;
+    animation: colorChange 10s infinite alternate;
 }
 
 @keyframes colorChange {
     from {
-        background-color: navy;
+        background-color: pink;
     }
     to {
         background-color: #3498db;
