@@ -52,11 +52,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
-@media only screen and (max-width: 555px) {
+@media only screen and (max-width: 400px) {
     /* Adjustments for small screens */
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 400px) {
     /* Adjustments for medium screens */
 }
 
