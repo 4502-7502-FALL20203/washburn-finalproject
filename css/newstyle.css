@@ -52,8 +52,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-/* Media Queries for Responsive Design */
 @media only screen and (max-width: 555px) {
     /* Adjustments for small screens */
 }
@@ -62,15 +60,10 @@ footer {
     /* Adjustments for medium screens */
 }
 
-/* Additional Media Queries if Needed */
-
-/* Styled Footer */
 footer {
     text-align: center;
     margin-top: 20px;
 }
-
-/* Skip Links */
 .skip-link {
     position: absolute;
     clip: rect(1px, 1px, 1px, 1px);
@@ -82,7 +75,6 @@ footer {
     margin: 0;
 }
 
-/* Show skip link on focus */
 .skip-link:focus {
     background-color: #3498db;
     color: #fff;
