@@ -52,11 +52,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Media Queries for Responsive Design */
 @media only screen and (max-width: 400px) {
     /* Adjustments for small screens */
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
     /* Adjustments for medium screens */
 }
 
@@ -91,7 +93,7 @@ footer {
 }
 
 /* Styles specific to the Main Page */
-body.main-page {
+body.newindex {
     background-color: pink;
     color: black;
 }
@@ -135,4 +137,26 @@ button {
 
 button:hover {
     background-color: #c0392b;
+}
+
+/* Styles specific to HTML2 List Page */
+body.html2listpage {
+    background-color: navy;
+    color: white;
+}
+
+/* Styles specific to HTML3 New List Page */
+body.html3newlist {
+    background-color: #ffb6c1;
+    color: white;
+}
+
+/* Styles specific to HTML4 Index Page */
+body.htmlindex4 {
+    background-color: #add8e6;
+    color: black;
+}
+
+body {
+    font-family: 'Indie Flower', sans-serif;
 }
